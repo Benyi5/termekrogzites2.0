@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Új gyümölcs felvétele</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    
+</head>
+<body>
+    <h1>Új gyümölcs felvétele</h1>
+
+    <form action= "http://localhost:3000/ujgyumi" method="post">
+        <div class="main-block">
+            <div class="info">
+              <input type="text" name="name" id="megnevezes" placeholder="Megnevezése: " minlength="5" required>
+              <input type="text" name="name" id="egysegar" placeholder=" Egységnyi mennyiség ára: " minlength="1" required>
+              <input type="text" name="name" id="menyegy" placeholder="Mérhető mennyiség: " required>
+              <input type="text" name="name" id="mennyiseg" placeholder="Mennyisége: " minlength="0" required>
+              <select>
+                <option value="kg">kg</option>
+                <option value="db">db</option>
+              </select>
+            </div>
+            <button href="/" class="button">Submit</button>
+        </div>
+    </form>
+    
+
+
+    <div id="kartyakDiv">
+      <p class=""></p> <!--GYümölcsök kiíratása a webre  -->
+  </div>
+</body>
+</html>
+
+

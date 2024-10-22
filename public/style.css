@@ -1,0 +1,82 @@
+
+body, input, select, option { 
+padding: 20px;
+margin: 0;
+outline: none;
+font-family: Roboto, Arial, sans-serif;
+font-size: 16px;
+background-color: lightblue;
+}
+h1, h3 {
+font-weight: 400;
+}
+h1 {
+font-size: 32px;
+}
+h3 {
+color: #1c87c9;
+}
+.main-block, .info {
+display: flex;
+flex-direction: column;
+}
+.main-block {
+justify-content: center;
+align-items: center;
+background-size: auto;
+margin: 0, auto;
+}
+form {
+justify-content: center;
+margin: 0, auto;
+width: 80%; 
+padding: 25px;
+margin-bottom: 20px;
+background: cadetblue;
+text-decoration-color: #eee;
+}
+input, select {
+padding: 5px;
+margin-bottom: 20px;
+background: transparent;
+border: none;
+border-bottom: 1px solid #eee;
+}
+input::placeholder {
+color: #eee;
+text-decoration: #eee;
+}
+.metod {
+display: flex; 
+}
+input[type=radio] {
+display: none;
+}
+button {
+display: block;
+width: 200px;
+padding: 10px;
+margin: 20px auto 0;
+border: none;
+border-radius: 5px; 
+background: #1c87c9; 
+font-size: 14px;
+font-weight: 600;
+color: #fff;
+}
+button:hover {
+background: #095484;
+}
+.info {
+flex-flow: row wrap;
+justify-content: space-between;
+}
+input {
+width: 46%;
+}
+input.fname {
+width: 100%;
+}
+select {
+width: 48%;
+}
